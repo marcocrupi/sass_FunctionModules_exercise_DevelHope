@@ -1,5 +1,7 @@
+@use 'pxtorem' as *;
+
 $firstColor: green;
 $secondColor: red;
 $thirdColor: blue;
-$firstBorder: 1px solid $firstColor;
-$secondBorder: 1px solid $secondColor;
+$firstBorder: toRem(1px) solid $firstColor;
+$secondBorder: toRem(1px) solid $secondColor;
